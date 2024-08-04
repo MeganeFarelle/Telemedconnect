@@ -1,0 +1,20 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.TeleMedConnect">
+
+    <data>
+        <variable
+            name="activity"
+            type="com.telemedconnect.patient.ui.activities.PaymentMethodsActivity" />
+
+        <variable
+            name="viewModel"
+            type="com.telemedconnect.patient.ui.view_models.PaymentMethodsViewModel" />
+    </data>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</layout>

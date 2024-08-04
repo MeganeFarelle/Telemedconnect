@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "plan": "Basic",
+    "price": "Free",
+    "period": "",
+    "savings": "",
+    "description": "",
+    "details": "",
+    "active": true
+  },
+  {
+    "id": "2",
+    "plan": "Premium",
+    "price": "$9.99",
+    "period": "Monthly",
+    "savings": "33",
+    "description": "Billed Monthly",
+    "details": "",
+    "active": false
+  },
+  {
+    "id": "3",
+    "plan": "Premium",
+    "price": "$79.99",
+    "period": "Annually",
+    "savings": "",
+    "description": "Billed Annually",
+    "details": "",
+    "active": false
+  }
+]

@@ -1,0 +1,63 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="country"
+            type="com.telemedconnect.patient.data.models.Country" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/countryFlag"
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="20dp"
+            android:importantForAccessibility="no"
+            tools:src="@drawable/ic_flag"
+            app:imageResource="@{country.flagResource}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" /> <!-- Placeholder image for flag -->
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:text="@string/country_name"
+            android:text="@{country.name}"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/dialingCode"
+            app:layout_constraintStart_toEndOf="@+id/countryFlag"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/dialingCode"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            tools:text="@string/xx"
+            app:dialCode="@{country.dialingCode}"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

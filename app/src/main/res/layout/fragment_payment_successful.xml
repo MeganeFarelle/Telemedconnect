@@ -1,0 +1,22 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.TeleMedConnect">
+
+    <data>
+        <variable
+            name="fragment"
+            type="com.telemedconnect.patient.ui.fragments.PaymentSuccessFragment" />
+
+        <variable
+            name="viewModel"
+            type="com.telemedconnect.patient.ui.view_models.PaymentMethodsViewModel" />
+    </data>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</layout>

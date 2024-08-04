@@ -1,0 +1,27 @@
+<!-- res/drawable/ghana_flag.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="12dp"
+    android:viewportWidth="640"
+    android:viewportHeight="480">
+
+  <!-- Green Section -->
+  <path
+      android:fillColor="#006b3f"
+      android:pathData="M0,0h640v480H0z" />
+
+  <!-- Yellow Section -->
+  <path
+      android:fillColor="#fcd116"
+      android:pathData="M0,0h640v320H0z" />
+
+  <!-- Red Section -->
+  <path
+      android:fillColor="#ce1126"
+      android:pathData="M0,0h640v160H0z" />
+
+  <!-- Black Star -->
+  <path
+      android:fillColor="#000001"
+      android:pathData="M320,160l52,160l-136.1,-98.9H404L268,320z" />
+</vector>

@@ -1,0 +1,425 @@
+<resources>
+    <string name="app_name">TeleMedConnect</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="telemedconnect">TeleMedConnect</string>
+    <string name="your_doctor_one_tap_away">Your Doctor, One tap away</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_content_desc">description</string>
+    <string name="onboarding_title_1">Video consult top doctors from the comfort of your home.</string>
+    <string name="onboarding_desc_1">These are Specialists in their respective fields, which includes Brain &amp; Nervous system.</string>
+    <string name="onboarding_title_2">Communicate in the best &amp; effective way possible.</string>
+    <string name="onboarding_desc_2">Time &amp; health are two precious assets that we don’t compromise on.</string>
+    <string name="frame">frame</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="welcome_back_you_have_been_missed">Welcome back! You have been missed.</string>
+    <string name="email">Email</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="password">Password</string>
+    <string name="password_input">Password input box</string>
+    <string name="email_input_box">Email input box</string>
+    <string name="_8_characters_minimum">8 characters minimum</string>
+    <string name="remember_for_30_days">Remember for 30 days</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_sign_in_with">or Sign In With</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="let_s_get_you_started_please_enter_your_details">Let\'s get you started. Please enter your details.</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="continue_">Continue</string>
+    <string name="by_clicking_continue_you_agree_to_accept_our">By clicking \"Continue\", you agree to accept our</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="and">and</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="password_strength">Password Strength:</string>
+    <string name="privacy_policy_text">
+        <![CDATA[
+        <p><b>Effective Date:</b> 05/07/2024</p>
+
+        <p>Welcome to <b>TeleMedConnect</b>. Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our telemedicine services. Please read this policy carefully. If you do not agree with the terms of this privacy policy, please do not use our services.</p>
+
+        <h2>1. Information We Collect</h2>
+
+        <h3>1.1 Personal Information</h3>
+
+        <p>We collect personal information that you provide to us directly when you register for an account, use our services, or communicate with us. This information may include:</p>
+
+        <ul>
+            <li>Name</li>
+            <li>Email Address</li>
+            <li>Phone Number</li>
+            <li>Date of Birth</li>
+            <li>Gender</li>
+            <li>Medical History</li>
+            <li>Insurance Information</li>
+            <li>Payment Information</li>
+            <li>Other information you provide during your interaction with our services</li>
+        </ul>
+
+        <h3>1.2 Health Information</h3>
+
+        <p>As a telemedicine service, we may collect health-related information that you provide during consultations with healthcare providers, including but not limited to:</p>
+
+        <ul>
+            <li>Medical Symptoms</li>
+            <li>Diagnosis</li>
+            <li>Treatment Plans</li>
+            <li>Prescriptions</li>
+            <li>Lab Results</li>
+            <li>Medical Records</li>
+        </ul>
+
+        <h3>1.3 Usage Data</h3>
+
+        <p>We may automatically collect information about your device and how you interact with the App, including:</p>
+
+        <ul>
+            <li>Device Information: IP address, device type, operating system, unique device identifiers.</li>
+            <li>Usage Information: Access times, pages viewed, links clicked, and the page you visited before navigating to our App.</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+
+        <p>We use the information we collect to:</p>
+
+        <ul>
+            <li>Provide and Improve Services: To deliver and enhance the telemedicine services you request, including consultations, treatment recommendations, and follow-up care.</li>
+            <li>Communication: To communicate with you about your appointments, updates, and notifications related to your health and the App.</li>
+            <li>Billing and Payments: To process payments for services and manage your account.</li>
+            <li>Compliance: To comply with legal and regulatory requirements, including reporting as required by law.</li>
+            <li>Marketing: To provide you with information about our services, new features, or other opportunities that may be of interest to you, subject to your preferences.</li>
+        </ul>
+
+        <h2>3. How We Share Your Information</h2>
+
+        <p>We may share your information in the following circumstances:</p>
+
+        <ul>
+            <li>With Healthcare Providers: To deliver telemedicine services, your information will be shared with healthcare professionals as necessary for diagnosis and treatment.</li>
+            <li>Service Providers: With third-party service providers who assist us in delivering our services, such as payment processors, cloud storage providers, and analytics services.</li>
+            <li>Legal Requirements: If required by law or in response to a legal request, such as a subpoena, court order, or government investigation.</li>
+            <li>Business Transfers: In connection with a merger, acquisition, or sale of all or a portion of our assets.</li>
+        </ul>
+
+        <h2>4. Security of Your Information</h2>
+
+        <p>We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the Internet or method of electronic storage is completely secure. We cannot guarantee the absolute security of your information.</p>
+
+        <h2>5. Your Choices and Rights</h2>
+
+        <ul>
+            <li>Access and Correction: You may access, update, or correct your personal information by logging into your account or contacting us directly.</li>
+            <li>Data Deletion: You may request that we delete your personal information, subject to certain legal requirements.</li>
+            <li>Opt-Out: You can opt out of receiving promotional communications from us by following the unsubscribe instructions in those communications or contacting us.</li>
+        </ul>
+
+        <h2>6. Children’s Privacy</h2>
+
+        <p>Our services are not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13. If we learn that we have collected information from a child under 13, we will take steps to delete the information as soon as possible.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on our App and updating the “Effective Date” at the top of this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <h2>8. Contact Us</h2>
+
+        <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
+
+        <p>Email: [support@yourapp.com]</p>
+        <p>Phone: [+1 (123) 456-7890]</p>
+        <p>Address: [123 Health Ave, City, State, ZIP]</p>
+        ]]>
+    </string>
+    <string name="terms_of_use">Terms Of Use</string>
+    <string name="terms_of_use_text">
+        <![CDATA[
+        <p>Last Updated: 05/06/2024</p>
+        <h2>Welcome to <b>TeleMedConnect</b>!</h2>
+        <p>These Terms of Use ("Terms") govern your use of <b>TeleMedConnect</b>, including our website, mobile applications, and services (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, you may not use our Services.</p>
+
+        <h3>1. Acceptance of Terms</h3>
+        <p>By registering for or using our Services, you confirm that you are at least 18 years old or the age of majority in your jurisdiction and have the legal capacity to enter into a binding agreement. If you are using the Services on behalf of an entity, you represent that you have the authority to bind that entity to these Terms.</p>
+
+        <h3>2. Services Provided</h3>
+        <p><b>TeleMedConnect</b> offers telemedicine services that allow users to consult with healthcare providers remotely. Our Services include:</p>
+        <ul>
+            <li>Video Consultations: Real-time video communication with healthcare providers.</li>
+            <li>Messaging: Secure messaging for consultations and follow-ups.</li>
+            <li>Prescription Services: Issuance and management of electronic prescriptions.</li>
+            <li>Health Records: Storage and access to personal health information.</li>
+        </ul>
+
+        <h3>3. User Responsibilities</h3>
+        <h4>3.1 Registration</h4>
+        <p>To use certain features of the Services, you may be required to create an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.</p>
+
+        <h4>3.2 Account Security</h4>
+        <p>You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account.</p>
+
+        <h4>3.3 User Conduct</h4>
+        <p>You agree not to use the Services for any unlawful purpose or in any way that could damage, disable, overburden, or impair the Services. You also agree not to:</p>
+        <ul>
+            <li>Upload or transmit any content that is illegal, harmful, or offensive.</li>
+            <li>Attempt to gain unauthorized access to our systems or networks.</li>
+            <li>Engage in any activity that interferes with or disrupts the Services.</li>
+        </ul>
+
+        <h3>4. Privacy and Data Protection</h3>
+        <p>Our collection and use of your personal information are governed by our Privacy Policy, which is incorporated by reference into these Terms. By using our Services, you consent to the collection, use, and sharing of your information as described in the Privacy Policy.</p>
+
+        <h3>5. Medical Disclaimer</h3>
+        <h4>5.1 No Medical Advice</h4>
+        <p>The Services are not intended to provide medical advice. The information and content provided through the Services are for informational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment.</p>
+
+        <h4>5.2 Provider-Patient Relationship</h4>
+        <p>The use of the Services does not create a provider-patient relationship between you and <b>TeleMedConnect</b>. Consultations with healthcare providers through the Services may result in the formation of a provider-patient relationship, subject to the terms of your agreement with the healthcare provider.</p>
+
+        <h3>6. Intellectual Property</h3>
+        <h4>6.1 Ownership</h4>
+        <p>All content, features, and functionality of the Services, including text, graphics, logos, images, and software, are the exclusive property of <b>TeleMedConnect</b> or its licensors and are protected by copyright, trademark, and other intellectual property laws.</p>
+
+        <h4>6.2 License</h4>
+        <p>You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use the Services for your personal, non-commercial use. You may not modify, reproduce, distribute, or create derivative works based on the Services without our express written consent.</p>
+
+        <h3>7. Termination</h3>
+        <h4>7.1 Termination by You</h4>
+        <p>You may terminate your account and stop using the Services at any time by following the account deletion instructions in the App or contacting us at [support@yourapp.com].</p>
+
+        <h4>7.2 Termination by Us</h4>
+        <p>We may suspend or terminate your access to the Services at any time, with or without notice, for any reason, including if we believe that you have violated these Terms.</p>
+
+        <h3>8. Limitation of Liability</h3>
+        <p>To the maximum extent permitted by law, <b>TeleMedConnect</b> and its affiliates, officers, directors, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:</p>
+        <ul>
+            <li>Your use of or inability to use the Services.</li>
+            <li>Any unauthorized access to or use of our servers and/or any personal information stored therein.</li>
+            <li>Any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, transmitted, or otherwise made available through the Services.</li>
+        </ul>
+
+        <h3>9. Governing Law</h3>
+        <p>These Terms and your use of the Services are governed by the laws of the [State/Country], without regard to its conflict of laws principles. You agree to submit to the exclusive jurisdiction of the courts located in [Your Jurisdiction] for the resolution of any disputes arising out of or related to these Terms or your use of the Services.</p>
+
+        <h3>10. Changes to Terms</h3>
+        <p>We may modify these Terms at any time. Any changes will be effective immediately upon posting the updated Terms on our App. Your continued use of the Services after any such changes constitutes your acceptance of the new Terms. If you do not agree to the revised Terms, you must stop using the Services.</p>
+
+        <h3>11. Contact Information</h3>
+        <p>If you have any questions or concerns about these Terms or the Services, please contact us at:</p>
+        <p>Email: [support@yourapp.com]</p>
+        <p>Phone: [+1 (123) 456-7890]</p>
+        <p>Address: [123 Health Ave, City, State, ZIP]</p>
+        ]]>
+    </string>
+    <string name="by_providing_your_mobile_number_you_give_us_permission_to_contact_you_via_text">By providing your mobile number, you give us permission to contact you via text.</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="_0000_0000">000 0000</string>
+    <string name="_234">+234</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="country_name">Country Name</string>
+    <string name="xx">(+XX)</string>
+    <string name="mu">MU</string>
+    <string name="basic_information">Basic Information</string>
+    <string name="please_tell_us_some_basic_information_to_complete_your_profile">Please tell us some basic information to complete your profile.</string>
+    <string name="search_country">Search Country</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="months_array">
+        <item>Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="health_insurance">Health Insurance</string>
+    <string name="search_for_your_health_insurance_provide_to_see_if_youre_covered">Add your health insurance provide to see if you\'re covered.</string>
+    <string name="search">Search</string>
+    <string name="eg_leadway_insurance_mansard">eg. Leadway Insurance Mansard</string>
+    <string name="save">Save</string>
+    <string name="skip_insurance">Skip Insurance</string>
+    <string name="you_can_see_a_doctor_without_insurance">You can see a doctor without insurance</string>
+    <string name="home">Home</string>
+    <string name="calender">Calender</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+    <string name="what_do_you_want_to_do_today">What do you want to do today?</string>
+    <string name="upcoming_appointments">Upcoming Appointment</string>
+    <string name="you_currently_don_t_have_an_appointment_scheduled">You currently don\'t have an appointment scheduled.</string>
+    <string name="book_an_appointment_today">Book an appointment today!</string>
+    <string name="for_general_needs">For General Needs</string>
+    <string name="for_general_needs_desc_long">Get medical advice, prescriptions, test &amp; referrals by video appointment with our doctors.</string>
+    <string name="for_general_needs_desc_short">Virtual medical consultations.</string>
+    <string name="talk_to_a_doctor">Talk to a Doctor</string>
+    <string name="talk_to_a_doctor_desc_long">Get medical advice, prescriptions, test &amp; more.</string>
+    <string name="talk_to_a_doctor_desc_short">Medical Consultation Services.</string>
+    <string name="request_urgent_care">Request Urgent Care</string>
+    <string name="request_urgent_care_desc_long">Chat by video with the next available doctor.</string>
+    <string name="request_urgent_care_desc_short">Video chat doctor.</string>
+    <string name="locate_a_pharmacy">Locate a Pharmacy</string>
+    <string name="locate_a_pharmacy_desc_long">Locate a Pharmacy within your area to purchase medications.</string>
+    <string name="locate_a_pharmacy_desc_short">Find Nearby Pharmacy.</string>
+    <string name="book_an_appointment">Book an Appointment</string>
+    <string name="book_an_appointment_desc_long">Choose a Primary Care Doctor and complete your first video appointment.</string>
+    <string name="book_an_appointment_desc_short">Select Doctor, Video Call.</string>
+    <string name="children_health">Children\'s Health</string>
+    <string name="children_health_desc_long">Cold &amp; flu symptoms, Diarrhea or Constipation, Skin rash, &amp; Allergies.</string>
+    <string name="children_health_desc_short">Kids\' Health Wellness</string>
+    <string name="senior_health">Senior Health</string>
+    <string name="senior_health_desc_long">Muscle or joint pain, Medication management, Preventive health method.</string>
+    <string name="senior_health_desc_short">Senior\'s Health Wellness.</string>
+    <string name="women_health">Women\'s Health</string>
+    <string name="women_health_desc_long">UTI, Birth control, Menopause, Period problems, Yeast infections, &amp; more.</string>
+    <string name="women_health_desc_short">Women\'s Health Wellness.</string>
+    <string name="men_health">Men\'s Health</string>
+    <string name="men_health_desc_long">STI symptoms, Erection issues, Bladder or Bowel issues, Skin, &amp; hair care.</string>
+    <string name="men_health_desc_short">Men\'s Health Wellness.</string>
+    <string name="for_special_needs">For Special Needs</string>
+    <string name="for_special_needs_desc">Our primary care doctors can help you with a broad range of health issues, medications and more by video appointment.</string>
+    <string name="request_physical_consultation">Request a Physical Consultation</string>
+    <string name="request_physical_consultation_desc_long">Schedule an in-person consultation to discuss your needs comfortably.</string>
+    <string name="request_physical_consultation_desc_short">Arrange face-to-face meeting.</string>
+    <string name="find_a_health_center">Find a Health Center</string>
+    <string name="find_a_health_center_desc_long">Discover nearby health centers easily for essential healthcare services.</string>
+    <string name="find_a_health_center_desc_short">Locate nearby clinics.</string>
+    <string name="order_a_lab_test">Order a Lab Test</string>
+    <string name="order_a_lab_test_desc_long">Effortlessly manage lab tests: choose, book, track results in one place.</string>
+    <string name="order_a_lab_test_desc_short">Centralized Lab Testing.</string>
+    <string name="request_emergency_service">Request Emergency Service</string>
+    <string name="request_emergency_service_desc_long">Quickly access essential emergency assistance when you need it most.</string>
+    <string name="request_emergency_service_desc_short">Emergency aid access.</string>
+    <string name="health_qa">Health Q&amp;A</string>
+    <string name="health_qa_desc_long">Trusted platform for personalized health advice and medical question answers.</string>
+    <string name="health_qa_desc_short">Personalized Health Hub.</string>
+    <string name="symptoms_and_assessment">Symptoms and Assessment</string>
+    <string name="symptoms_and_assessment_desc_long">Thorough evaluation and precise diagnosis of symptoms with the right questions."</string>
+    <string name="symptoms_and_assessment_desc_short">Precise Symptom Diagnosis"</string>
+    <string name="new_health_concern">New Health Concern</string>
+    <string name="new_health_concern_desc_long">Find a doctor</string>
+    <string name="new_health_concern_desc_short">Find a doctor</string>
+    <string name="routine_checkup">Routine checkup, Follow-up or Screening</string>
+    <string name="routine_checkup_desc_long">Find a Doctor</string>
+    <string name="routine_checkup_desc_short">Find a Doctor</string>
+    <string name="chronic_condition">Existing or Chronic Condition</string>
+    <string name="chronic_condition_desc_long">Talk to a specialist</string>
+    <string name="chronic_condition_desc_short">Talk to a specialist</string>
+    <string name="prescription_or_refills">Prescriptions or Refill</string>
+    <string name="prescription_or_refills_desc_long">Talk to a Pharmacist</string>
+    <string name="prescription_or_refills_desc_short">Talk to a Pharmacist</string>
+    <string name="mental_health">General Mental Health Concerns</string>
+    <string name="mental_health_desc_long">Find a doctor</string>
+    <string name="mental_health_desc_short">Find a doctor</string>
+    <string name="covid_19_symptoms">COVID-19 Symptoms</string>
+    <string name="covid_19_symptoms_desc_long">Find a Doctor</string>
+    <string name="covid_19_symptoms_desc_short">Find a Doctor</string>
+    <string name="sexual_health_education">Sexual Health Education</string>
+    <string name="sexual_health_education_desc_long">Find a Doctor</string>
+    <string name="sexual_health_education_desc_short">Find a Doctor</string>
+    <string name="other_medical_reasons">Other Medical Reasons</string>
+    <string name="other_medical_reasons_desc_long">Find a Doctor</string>
+    <string name="other_medical_reasons_desc_short">Find a Doctor</string>
+    <string name="see_more_actions">See more actions</string>
+    <string name="see_less">See less</string>
+    <string name="see_all">See all</string>
+    <string name="doctors_symptoms_hospitals">Doctors, Symptoms, Hospitals, …</string>
+    <string name="account">Account</string>
+    <string name="basic_account">Basic Account</string>
+    <string name="payment">Payment</string>
+    <string name="payment_method_on_file">Payment method on file</string>
+    <string name="mastercard_8979">Mastercard ***8979</string>
+    <string name="configure_your_account_your_way">Configure your account your way</string>
+    <string name="settings">Settings</string>
+    <string name="_24_7_customer_support">24/7 customer support</string>
+    <string name="transactions">Transactions</string>
+    <string name="view">View</string>
+    <string name="click_to_search">Click to search</string>
+    <string name="insurance_company">Insurance Company</string>
+    <string name="enter_insurance_policy_number">Enter Insurance Policy Number</string>
+    <string name="enter_insurance_company">Enter Insurance Company</string>
+    <string name="insurance_policy_number">Insurance Policy Number</string>
+    <string name="or_sign_up_with">or Sign Up With</string>
+    <string name="hi_meggie">Hi, Meggie!</string>
+    <string name="monday_30_july">Monday, 30 July</string>
+    <string name="_09_00_10_00">09:00 – 10:00</string>
+    <string name="code_verification">Code Verification</string>
+    <string name="please_enter_the_code_we_sent_to_email">Please enter the code we sent to email</string>
+    <string name="verify">Verify</string>
+    <string name="didn_t_receive_otp">Didn\'t receive OTP?</string>
+    <string name="resend_code"><u>Resend Code</u></string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="securely_logout_of_the_app">Securely Logout of the app</string>
+    <string name="log_out">Log Out</string>
+    <string name="megane_farelle">Megane Farelle</string>
+    <string name="female_27_years_old">Female, 27 years old</string>
+    <string name="help_and_support"><![CDATA[Help & Support]]></string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="payment_method">Payment Method:</string>
+    <string name="transaction_fee">Transaction Fee:</string>
+    <string name="original_amount">Original Amount:</string>
+    <string name="exchange_rate">Exchange Rate:</string>
+    <string name="search_transaction">Search Transaction</string>
+    <string name="choose_payment_method">Choose Payment Method</string>
+    <string name="saved_methods">Saved Methods</string>
+    <string name="others">Others</string>
+    <string name="add_payment_method">+ Add Payment Method</string>
+    <string name="mastercard">MasterCard</string>
+    <string name="payment_method_">Payment Method</string>
+    <string name="total_payments">Total Payments</string>
+    <string name="usd_12">USD 12</string>
+    <string name="_123456789123">123456789123</string>
+    <string name="no_save_method">No Save Method</string>
+    <string name="you_do_not_have_any_transactions_yet">You do not have any transactions yet.</string>
+    <string name="account_plan">Account Plan</string>
+    <string name="subscribe_now">Subscribe Now</string>
+    <string name="choose_country">Choose Country</string>
+    <string name="no_results">No Results</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="continue_as_a">Continue as a</string>
+    <string-array name="genders">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="select">Select</string>
+    <string name="patient">Patient</string>
+    <string name="patient_desc">Access personalized healthcare services, manage your medical records, book appointments, and receive prescriptions directly through the app.</string>
+    <string name="doctor">Doctor</string>
+    <string name="doctor_desc">Provide virtual consultations, manage patient records, prescribe medications, and monitor patient health remotely through an integrated platform.</string>
+    <string name="lab_tech">Lab Technician</string>
+    <string name="lab_tec_desc">Conduct diagnostic tests, upload lab results, manage test records, and communicate findings with doctors and patients efficiently.</string>
+    <string name="pharmacist">Pharmacist</string>
+    <string name="pharmacist_desc">Dispense prescriptions, manage inventory, offer medication counseling, and ensure timely delivery of medications to patients.
+
+</string>
+    <string name="hi">Hi,</string>
+    <string name="chnage_role">Chnage Role</string>
+    <string name="change_role">Change Role</string>
+    <string name="change_to_different_role">Change to Different Role</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="enter_purpose">Enter purpose</string>
+    <string name="end_time">End Time</string>
+    <string name="___">:</string>
+    <string name="start_time">Start Time</string>
+    <string name="doctor_s_profile">Doctor\'s Profile</string>
+    <string name="professional_information">Professional Information</string>
+    <string name="please_tell_us_some_basic_information_about_your_profession">Please tell us some basic information about your profession</string>
+    <string name="licence">Licence</string>
+    <string name="years_of_practice">Years of Practice</string>
+    <string name="affiliated_institution">Affiliated Institution</string>
+    <string name="date">Date</string>
+</resources>

@@ -1,0 +1,140 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TeleMedConnect" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/gt_walsheim_pro_400</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.TeleMedConnect.SplashScreen" parent="Theme.TeleMedConnect">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/blue</item>
+        <item name="backgroundColor">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SplashTitleText">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_700</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="SplashSubTitleText">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_400</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="OnboardingItemTitleText" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="OnboardingItemDescText" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_400</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="InputTitleText" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ProfileItemTitle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="HomeActionItemTitle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ProfileSectionTitle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TransactionDetailTag" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BaseButtonStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/gt_walsheim_pro_500</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="fontWeight">700</item>
+    </style>
+
+    <!-- Primary button style using theme attributes -->
+    <style name="PrimaryButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Secondary button style using theme attributes -->
+    <style name="SecondaryButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:textColor">@color/cl_black_text</item>
+    </style>
+
+    <!-- text input layout style -->
+    <style name="TextInputLayout.NoBackground" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@android:color/transparent</item> <!-- Transparent background -->
+        <item name="boxStrokeColor">@android:color/transparent</item> <!-- Transparent stroke -->
+        <item name="boxBackgroundMode">none</item> <!-- No background mode -->
+    </style>
+
+    <style name="DashboardTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/tab_text_color</item> <!-- Use ColorStateList -->
+    </style>
+
+    <style name="RoundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="cornerSize">50%</item> <!-- Use a percentage for fully rounded -->
+    </style>
+
+    <style name="FullScreenDialog" parent="Theme.TeleMedConnect.SplashScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

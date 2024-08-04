@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+
+  <!-- Background Circle -->
+  <path
+      android:pathData="M22,0C34.15,0,44,9.85,44,22S34.15,44,22,44,0,34.15,0,22,9.85,0,22,0Z"
+      android:fillColor="#B9E6FE" />
+
+  <!-- Foreground Path -->
+  <path
+      android:pathData="M29,13H15C13.9,13,13.01,13.9,13.01,15L13,29C13,30.1,13.9,31,15,31H29C30.1,31,31,30.1,31,29V15C31,13.9,30.1,13,29,13ZM27,24H24V27C24,27.55,23.55,28,23,28H21C20.45,28,20,27.55,20,27V24H17C16.45,24,16,23.55,16,23V21C16,20.45,16.45,20,17,20H20V17C20,16.45,20.45,16,21,16H23C23.55,16,24,16.45,24,17V20H27C27.55,20,28,20.45,28,21V23C28,23.55,27.55,24,27,24Z"
+      android:fillColor="#0086C9" />
+</vector>

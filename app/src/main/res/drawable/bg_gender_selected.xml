@@ -1,0 +1,17 @@
+<!-- res/drawable/dot_background.xml -->
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <solid android:color="@color/white" /> &lt;!&ndash; Default color &ndash;&gt;-->
+<!--    <corners android:radius="8dp" /> &lt;!&ndash; Circular shape &ndash;&gt;-->
+<!--</shape>-->
+
+<!-- cardview_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background layer -->
+    <item android:bottom="1dp" android:right="1dp" android:left="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" /> <!-- Background color -->
+            <corners android:radius="8dp" /> <!-- Adjust corner radius as needed -->
+        </shape>
+    </item>
+</layer-list>

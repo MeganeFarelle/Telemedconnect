@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "method_name": "MasterCard",
+    "description": "A widely accepted credit card payment method.",
+    "provider": "MasterCard",
+    "type": "Card",
+    "holder_name": "John Smith",
+    "account_number": "1234567890987654",
+    "currency_supported": "USD, EUR, GBP",
+    "transaction_fee": 1.5,
+    "status": 1,
+    "date_created": "2022-01-01T00:00:00Z",
+    "date_updated": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "method_name": "VisaCard",
+    "description": "A global credit card payment method accepted by most merchants.",
+    "provider": "Visa",
+    "type": "Card",
+    "holder_name": "John Smith",
+    "account_number": "1234567890987654",
+    "currency_supported": "USD, EUR, GBP",
+    "transaction_fee": 1.3,
+    "status": 0,
+    "date_created": "2022-01-01T00:00:00Z",
+    "date_updated": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "method_name": "PayPal",
+    "description": "A digital wallet allowing secure online transactions.",
+    "provider": "PayPal",
+    "type": "Digital Wallet",
+    "holder_name": "John Smith",
+    "account_number": "1234567890987654",
+    "currency_supported": "USD, EUR, GBP",
+    "transaction_fee": 2.0,
+    "status": 0,
+    "date_created": "2022-01-01T00:00:00Z",
+    "date_updated": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "method_name": "ApplePay",
+    "description": "A mobile payment and digital wallet service by Apple.",
+    "provider": "Apple",
+    "type": "Digital Wallet",
+    "holder_name": "John Smith",
+    "account_number": "1234567890987654",
+    "currency_supported": "USD, EUR, GBP",
+    "transaction_fee": 1.8,
+    "status": 0,
+    "date_created": "2022-01-01T00:00:00Z",
+    "date_updated": "2023-01-01T00:00:00Z"
+  }
+]

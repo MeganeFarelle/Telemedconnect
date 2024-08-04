@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="activity"
+            type="com.telemedconnect.patient.ui.activities.ChooseCountryActivity" />
+
+        <variable
+            name="viewModel"
+            type="com.telemedconnect.patient.ui.view_models.ChooseCountryViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="15dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_arrow_left"
+                android:clickable="true"
+                android:onClick="@{()->activity.backPressed()}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_country"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="20dp"
+                android:clickable="true"
+                android:onClick="@{()->viewModel.toggleSearch()}"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_search"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout.NoBackground"
+                android:id="@id/search_layout"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                app:hintEnabled="false"
+                app:endIconDrawable="@drawable/ic_cancel"
+                app:endIconMode="custom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="@{viewModel.searchBoxVisibility}"
+                tools:visibility="gone">
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:hint="@string/search_country"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="124dp"
+                    tools:layout_editor_absoluteY="1dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textColor="@color/light_grey"
+            android:text="@string/no_results"
+            android:textSize="18sp"
+            android:visibility="@{viewModel.noResultsVisibility}"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            tools:listitem="@layout/layout_country_item"/>
+
+    </LinearLayout>
+
+
+</layout>
